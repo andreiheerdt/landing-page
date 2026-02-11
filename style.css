@@ -9,14 +9,15 @@ body {
 }
 
 header {
-    background-color: lightslategray;
-    color: white;
+    background-color: #1F2937;
     display: flex;
     padding: 15px;
 }
 
 header h2 {
     margin-left: 150px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 
 nav {
@@ -30,7 +31,6 @@ nav {
 
 nav ul {
     font-weight: lighter;
-    color: white;
     text-decoration: none;
 }
 
@@ -41,11 +41,51 @@ nav li {
 
 nav li a {
     margin-right: 20px;
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
     text-decoration: none;
 }
 
 .top-section {
-    background-color: lightslategray;
+    background-color: #1F2937;
     height: 500px;
+    align-items: center;
+    display: flex;
+}
+
+div .description {
+    color: #F9FAF8;
+    margin-left: 150px;
+    margin-right: 150px;
+    max-width: 350px;
+}
+
+.description h2 {
+    font-size: 48px;
+}
+
+.description p {
+    font-size: 18px;
+}
+
+.signup-button {
+    margin-top: 20px;
+}
+
+.signup-button a {
+    flex: 1;
+    background-color: #3882F6;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 6px;
+    padding: 5px 20px
+}
+
+.signup-button a:hover {
+    background-color: #458bfc;
+}
+
+.image {
+    margin-right: 150px;
 }
